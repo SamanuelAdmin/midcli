@@ -2,6 +2,8 @@ import getpass
 import time
 import json
 
+from truenas_api_client.exc import ValidationErrors
+
 from midcli.gui.base.app import run_app
 from midcli.gui.network.configuration import NetworkConfiguration
 from midcli.gui.network.interface.list import NetworkInterfaceList
